@@ -9,12 +9,6 @@
     <div class="clearfix"></div>
 </section>
 
-<section id="footer">
-
-    <p>Copyright &copy; {$date_year} {$companyname}. All Rights Reserved.</p>
-
-</section>
-
 <script src="{$BASE_PATH_JS}/bootstrap.min.js"></script>
 <script src="{$BASE_PATH_JS}/jquery-ui.min.js"></script>
 <script type="text/javascript">
@@ -24,5 +18,3 @@
 
 {$footeroutput}
 
-</body>
-</html>

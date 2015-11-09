@@ -1,0 +1,658 @@
+/* WHMCS CSS FILE */
+
+#company_title{background-color:#00162C;color:#FFF;float:left;font-size:24px;line-height:60px;margin:0;padding:0;text-align:left;}
+#content_container{background:#FFF url(images/content_container_bg.gif) repeat-y;border:5px solid #258;color:#666;margin:20px auto 0;padding:0;text-align:left;width:950px;}
+#content_left{background-color:#FFF;float:left;margin:0;padding:15px;text-align:left;width:670px;}
+#side_menu{background-color:#EFF5FF;border-left:1px solid #CFE2FF;float:right;margin:0;padding:15px;text-align:left;width:219px;}
+#side_menu ul{list-style:none;margin:0 0 10px;padding:0;}
+#side_menu ul li{line-height:25px;margin:0;padding:0;}
+/* GigaTux - removed #top
+#top{background-color:#00162C;height:60px;margin:0 auto;padding:0;text-align:left;width:960px;} */
+#top_container{background-color:#00162c;border-bottom:3px solid #036;color:#FFF;height:60px;margin:0;padding:0;text-align:center;}
+#top_menu{background:#F5F5F5 url(images/top_menu_bg.gif) repeat-x;height:30px;line-height:30px;margin:0;padding:0;text-align:left;}
+#top_menu ul{list-style:none;margin:0;padding:0;}
+#top_menu ul li{float:left;margin:0;padding:0;}
+#top_menu ul li a,#top_menu ul li a:visited{color:#666;display:block;height:30px;line-height:30px;padding:0;text-align:center;text-decoration:none;width:100px;}
+#top_menu ul li a.down,#top_menu ul li a.down:visited,#top_menu ul li a.down:hover{background-color:#FFF;border-right:1px solid #EBEBEB;color:#333;font-weight:700;width:99px;}
+#top_menu ul li a:hover{background-color:#EBEBEB;color:#333;}
+#welcome_box{background-color:#00162C;float:right;line-height:60px;margin:0;padding:0;text-align:right;}
+#welcome_box a,#welcome_box a:visited{color:#accbff;text-decoration:none;}
+#welcome_box a:hover{text-decoration:underline;}
+.absmiddle{vertical-align:middle;}
+.breadcrumb{background-color:#F5F5F5;margin:0 0 10px;padding:10px;}
+.clear{clear:both;}
+.green{color:#006F0F;}
+.header{color:#1a4d80;font-size:14px;font-weight:700;}
+.red{color:#BF0000;}
+.small{font-size:11px;}
+.warning{background-color:#FFFFDF;border:1px solid #FDFF3F;margin:0 0 10px;padding:10px;}
+.contentbox{padding:10px;margin:0 0 10px;text-align:center;}
+.errorbox{background-color:#FFBFBF;padding:10px;margin:0 0 10px;text-align:center;color:#7F0000;}
+.successbox {border: 1px solid #66CC00;font-weight: bold;background-color: #DDFFC6;text-align: center;padding: 10px;color: #009933;}
+.clientareatableactive{background-color:#DFFFE0}
+.clientareatablepending{background-color:#EFEFEF}
+.clientareatablesuspended{background-color:#FFF6CF}
+.clientareatableterminated{background-color:#FFCFCF}
+.clientticketreplyheader{background-color:#EBEBEB;color:#333;border-top:1px solid #CCC;border-right:1px solid #CCC;border-bottom:1px solid #EBEBEB;border-left:1px solid #CCC;}
+.clientticketreply{background-color:#F5F5F5;margin:0 0 10px;padding:10px;border-right:1px solid #CCC;border-bottom:1px solid #CCC;border-left:1px solid #CCC;}
+.adminticketreplyheader{background-color:#CFE6FF;color:#333;border-top:1px solid #CAE6FF;border-right:1px solid #CAE6FF;border-bottom:1px solid #CAE6FF;border-left:1px solid #CAE6FF}
+.adminticketreply{background-color:#EEF6FF;padding:10px;margin:0 0 10px;border-right:1px solid #CAE6FF;border-bottom:1px solid #CAE6FF;border-left:1px solid #CAE6FF;}
+.networkissueaffected{background-color:#EFEFEF;padding:10px;margin: 0 0 10px;}
+.textgreen{color:#158F00;}
+.textred{color:#9F0000;}
+a,a:visited{color:#333;text-decoration:underline;}
+a:hover{color:#666;text-decoration:none;}
+body{background-color:#369;background-image:url(images-website/bg_background.gif);background-repeat:repeat-x;margin:0;padding:0;}
+body,td,th{color:#666;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;font-size:12px;}
+form{margin:0;padding:0;}
+h1{border-bottom:1px solid #EBEBEB;color:#1a4d80;font-size:24px;font-weight:400;margin:0 0 12px;padding:0 0 3px;}
+h2{border-bottom:1px solid #F5F5F5;color:#333;font-size:18px;font-weight:400;margin:0 0 5px;padding:10px 0 3px;}
+h3{color:#666;font-size:16px;font-weight:700;margin:0;padding:10px 0 5px;}
+hr{background-color:#EBEBEB;border:0;border-top:1px solid #EBEBEB;height:0;margin:10px 0;overflow:hidden;}
+input,select,textarea{color:#666;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;font-size:12px;margin:0;padding:2px;}
+p{margin:0;padding:3px 0 8px;}
+table.data{margin:0 0 10px;padding:0;}
+table.data td{background-color:#FFF;border-bottom:1px solid #EBEBEB;}
+table.data th{background-color:#888;border-bottom:1px solid #333;color:#FFF;font-weight:400;}
+table.data th a {color:#FFF;}
+table.data tr.clientareatableactive td{background-color:#DFFFE0 !important;}
+table.data tr.clientareatablepending td{background-color:#EFEFEF !important;}
+table.data tr.clientareatablesuspended td{background-color:#FFF6CF !important;}
+table.data tr.clientareatableterminated td{background-color:#FFCFCF !important;}
+table.frame{margin:0 0 10px;padding:0;border:1px solid #EBEBEB;border-bottom:0;}
+table.frame table td{background-color:#FFF;border-bottom:1px solid #EBEBEB;}
+table.frame table td.fieldarea{background-color:#F5F5F5;color:#333;text-align:right;border-right:1px solid #EBEBEB;}
+.kbarticle {padding: 2px 5px 5px 15px;}
+.kbviews {color:#A8A8A8;font-size:10px;}
+.kbalsoread {padding: 5px 5px 5px 15px;background-color: #F5F5F5;border-bottom: 1px solid #ccc;font-weight: bold;margin: 10px 0 10px 0;}
+.searchinput {font-size: 11px;padding:0;}
+#twitterfeed ul {list-style-type: none;padding: 0;margin: 15px 0 20px 0;}
+#twitterfeed li {background-image: url(../../images/twittericon.png);background-repeat: no-repeat;background-position: 0;margin: 0 20px 10px 20px;padding-left: 25px;}
+#twitterfeed p {text-align:center;margin:15px;}
+.tweetbutton {float: right;margin: 0 15px 15px 15px;}
+
+/* --------------------------------------------------------------
+   QUOTES
+-------------------------------------------------------------- */
+
+.quotecontainer {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    background-image:url('../../images/quote.png');
+    background-repeat:no-repeat;
+    background-position: 10px 11px;
+    color: #666;
+    margin: 10px;
+}
+
+.quotecontainer:hover {
+    background-color: #efefef;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.quotecontainer .quoteid {
+    float: left;
+    width: 80px;
+    padding: 13px 0 0 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.quotecontainer .quoteleft {
+    float: left;
+    padding: 10px 0 10px 0;
+    font-size: 11px;
+}
+
+.quotecontainer .quoteleft .subject {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 4px;
+    color: #000;
+    width: 350px;
+}
+
+.quotecontainer .quoteright {
+    float: right;
+    padding: 10px 15px 0 0;
+    text-align: right;
+}
+
+.quotecontainer .quoteright .stage {
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+
+/* --------------------------------------------------------------
+   QUOTES
+-------------------------------------------------------------- */
+
+.quotecontainer {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    background-image:url('../../images/quote.png');
+    background-repeat:no-repeat;
+    background-position: 10px 11px;
+    color: #666;
+    margin: 10px;
+}
+
+.quotecontainer:hover {
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.quotecontainer .quoteid {
+    float: left;
+    width: 80px;
+    padding: 13px 0 0 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.quotecontainer .quoteleft {
+    float: left;
+    padding: 10px 0 10px 0;
+    font-size: 11px;
+}
+
+.quotecontainer .quoteleft .subject {
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 4px;
+    color: #000;
+    width: 350px;
+}
+
+.quotecontainer .quoteright {
+    float: right;
+    padding: 10px 15px 0 0;
+    text-align: right;
+}
+
+.quotecontainer .quoteright .stage {
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+/* END OF WHMCS TEMPLATE FILE */
+
+/*-----------------------------------------------------------------------------------------------------------
+Description:     General Layout
+Author:          Shemsedin Callaki at www.wysi.com
+Company:         Gigatux
+Created:         June 2011
+-----------------------------------------------------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('myriadpro-regular-webfont.eot');
+    src: url('myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('myriadpro-regular-webfont.woff') format('woff'),
+         url('myriadpro-regular-webfont.ttf') format('truetype'),
+         url('myriadpro-regular-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('myriadpro-reg-webfont.eot');
+    src: url('myriadpro-reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('myriadpro-reg-webfont.woff') format('woff'),
+         url('myriadpro-reg-webfont.ttf') format('truetype'),
+         url('myriadpro-reg-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'BellGothicStdBlack';
+    src: url('bellgothicstd-black-webfont.eot');
+    src: url('bellgothicstd-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bellgothicstd-black-webfont.woff') format('woff'),
+         url('bellgothicstd-black-webfont.ttf') format('truetype'),
+         url('bellgothicstd-black-webfont.svg#BellGothicStdBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BellGothicStdBold';
+    src: url('bellgothicstd-bold-webfont.eot');
+    src: url('bellgothicstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bellgothicstd-bold-webfont.woff') format('woff'),
+         url('bellgothicstd-bold-webfont.ttf') format('truetype'),
+         url('bellgothicstd-bold-webfont.svg#BellGothicStdBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*** GLOBAL  ***/
+html,body{height:100%;}
+body {
+	font-family:Arial, Verdana, Tahoma;
+	font-size:11px;
+	margin:0 auto;
+	padding:0;
+	color:#434141;
+	height:100%;
+	background-color:#f7f7f7;
+}
+* {
+	margin:0;
+	padding:0;
+}
+*:focus {
+	outline:none; /* removes ugly dotted border but may make template more unsuable, up to you
+					 if you want to keep it! */
+}
+.clr{clear:both}
+form{margin:0; padding:0;}
+hr {
+	border: 0;
+	color: #434141;
+	background-color: #434141;
+	height: 1px;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+}
+
+/*** END OF GLOBAL  ***/
+
+/*** DEFAULT ELEMENT STYLES ***/
+/* heading */
+h1, h2{margin-bottom:12px;	font-family:Arial, Verdana, Tahoma;	font-weight:normal; color:#434141}
+h2 a { color:#85AC3F; font-weight:normal; }
+h2 a:hover { color:#85AC3F; font-weight:normal; }
+h3, h4, h5 {margin-bottom:12px;	font-family:Arial, Verdana, Tahoma;	font-weight:normal;}
+h1 {font-size:24px; line-height:26px;font-family:'BellGothicStdBold';}
+h2 {font-size:20px; line-height:18px;font-family:'BellGothicStdBold';}
+h3 {font-size:18px; line-height:18px;font-family:'BellGothicStdBold';}
+h4 {font-size:16px; line-height:15px;}
+h5 {font-size:12px; line-height:15px;}
+
+/* links */
+/* GigaTux Changed. Originals were
+a {color:#ffca1f; text-decoration:none;}
+a:hover{color:#ffca1f; text-decoration:underline;}
+*/
+a {color:#660033; text-decoration:none; font-weight:bold;}
+a:hover{color:#660033; text-decoration:underline;}
+.testibox a {color:#ffca1f; text-decoration:none; font-weight:bold;}
+.testibox a:hover{color:#ffca1f; text-decoration:underline;}
+#foot a { font-weight:normal; }
+em { font-style:italic; font-weight:normal; }
+
+/* Buttons from http://www.jankoatwarpspeed.com */
+a.button
+{ 
+  /* Sliding right image */
+  background: transparent url('/templates/gigatuxsix/images-website/buttons/button_right.png') no-repeat scroll top right; 
+  display: block;
+  float: left;
+  height: 32px; /* CHANGE THIS VALUE ACCORDING TO IMAGE HEIGHT */
+  margin-right: 6px;
+  padding-right: 20px; /* CHENGE THIS VALUE ACCORDING TO RIGHT IMAGE WIDTH */
+  /* FONT PROPERTIES */
+  text-decoration: none;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+}
+
+a.button span
+{ 
+  /* Background left image */ 
+  background: transparent url('/templates/gigatuxsix/images-website/buttons/button_left.png') no-repeat; 
+  display: block;
+  line-height: 22px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
+  padding: 7px 0 5px 18px;
+}               
+
+a.button:hover span
+{ 
+  text-decoration:underline;
+}
+
+a.button:visited span
+{ 
+  color: #000000;
+}
+
+/*** CONTENT ***/
+/* GigaTux - added margin-bottom value */
+.box_content_r{ width:648px; background-image:url(/templates/gigatuxsix/images-website/box_yellow_r.gif); background-repeat:repeat-y; margin-bottom:10px; }
+.box_content_t{ width:648px; background-image:url(/templates/gigatuxsix/images-website/box_yellow_t.gif); background-repeat:no-repeat; background-position:top; }
+.box_content_b{ width:648px; background-image:url(/templates/gigatuxsix/images-website/box_yellow_b.gif); background-repeat:no-repeat; background-position:bottom; }
+
+
+.box_content{ padding:17px 18px 7px 18px; }
+.box_content h2{color:#592B79; font-size:20px;}
+#content h2{ color:#85AC3F; font-family:'BellGothicStdBold';}
+#content a:visited{ color:#85AC3F; }
+
+
+/*** END CONTENT ***/
+/* End */
+
+a img{border:none}
+.border{ border:1px solid #c5c5c5; padding:3px;}
+.imgleft{float:left; margin-right:20px; margin-bottom:5px;}
+.imgright{float:right; margin-left:20px;}
+.imgmiddle{vertical-align:middle; padding-right:6px}
+.cta-box-left{width:180px; float:left; padding-top:7px;}
+.cta-box-right{width:60px; float:left;}
+/* lists, blockquotes and paragraphs */
+ul, ol, blockquote {
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:15px;
+	color:#434141;
+}
+
+p {
+	font-size:12px;
+	line-height:20px;
+	margin-bottom:20px;
+	color:#434141;
+}
+
+ul, ol {
+	margin:10px 0 35px 30px;
+}
+li ol,
+li ul
+{
+	list-style:square;
+	margin-bottom:0;
+	margin-top:0;
+}
+li ol {list-style:decimal;}
+blockquote {
+	margin:0px 0 0px 0px;
+	color:#c6c5c5;
+	padding:0px 20px 10px 25px;
+	background-image:url(/templates/gigatuxsix/images-website/quoleft.png);
+	background-repeat:no-repeat;
+	font-size:12px;
+	
+}
+
+  blockquote.close span{
+	  padding:0px 20px 10px 25px;
+background-image:url(/templates/gigatuxsix/images-website/quoright.png);
+	background-repeat:no-repeat;
+} 
+
+blockquote strong{
+
+	color:#FFF;
+	
+}
+
+/* code */
+code {
+	font-family:Verdana, Arial;
+	letter-spacing:1px;
+	margin:25px 0 25px 0px;
+	display:block;
+	font-size:0.9em;
+	border-left:4px solid #434141;
+	padding:15px 10px;
+}
+
+
+/*** END OF DEFAULT ELEMENT STYLES ***/
+
+
+/*** CONTAINER ***/
+#main_container{background-image:url(/templates/gigatuxsix/images-website/bg_top_container.jpg);background-color:#f7f7f7; background-repeat:repeat-x;min-height:90% !important; height:auto;}
+#main_container_inner{background-image:url(/templates/gigatuxsix/images-website/bg_top_container_inner.jpg); background-color:#f7f7f7; background-repeat:repeat-x;min-height:90% !important; height:auto;}
+#footer_container{background-image:url(/templates/gigatuxsix/images-website/bg_bottom_container.jpg); background-repeat:repeat-x; height:75px; clear:both; margin-top:30px;}
+/*** END OF CONTAINER ***/
+
+/*** CENTERCOLUMN ***/
+#centercolumn{width:975px; margin:0px auto 0px auto;}
+/*** END OF CENTERCOLUMN ***/
+
+/*** TOP ***/
+#top{height:94px}
+/*#top ul, #top p, #top a, #top a:visited{color:#7C469D !important;}*/
+#top ul{list-style-type:none; margin:0px; padding:0px;}
+#logo{width:387px; float:left; /*padding-top:30px; padding-left:20px;*/ margin-top:-51px; margin-left:-100px; position:absolute;}
+#topcontact{width:300px; float:right; padding:0px 0px 0px 0px; text-align:right;}
+ul#top-nav{ background-image:url(/templates/gigatuxsix/images-website/phone-icon.png); background-position:90px 0px;padding-top:5px; padding-bottom:5px; margin-top:10px; background-repeat:no-repeat;
+
+list-style-type:none; /*font-size:11px; margin:5px 0px 13px 0px;*/  color:#1E1A51; font-size:20px;}
+ul#top-call{ list-style-type:none; /*font-size:14px; */
+/*background-image:url(/templates/gigatuxsix/images-website/icon-9.png); background-position:140px 0px; background-repeat:no-repeat;*/ margin-top:20px; color:#1D1C51; font-size:16px;}
+ul#top-call li.number{ background-image:url(/templates/gigatuxsix/images-website/phone-icon.png); background-position:90px 0px; padding-top:6px; background-repeat:no-repeat; font-size:22px; padding-bottom:15px; }
+ul#top-call li.email{
+	background-image:url(/templates/gigatuxsix/images-website/email-icon.png); background-position:95px 0px;padding-top:5px; padding-bottom:10px; background-repeat:no-repeat;
+	
+	 color:#7C469D; font-size:20px;}
+
+
+/* manu nav */
+#topmenu{height:36px; float:right; /*added*/ }
+#nav li {
+	display: inline;
+	background: url(/templates/gigatuxsix/images-website/nav-right.gif) no-repeat right top;
+	text-align: center;
+	padding-right: 5px;
+	margin-right: 1px;	
+	float: left;
+	position:relative;
+}
+
+#nav ul li a{ background-image:none !important;}
+
+#nav a {
+	color: #fff;
+	background: url(/templates/gigatuxsix/images-website/nav-left.gif) no-repeat left top;
+	float: left;
+	margin:	0;
+	padding-left:0px;
+	text-decoration: none;
+	padding-left: 5px;
+	font-size:14px;
+	font-weight:normal;
+}
+
+
+#nav a:hover{ color:#ffca1f;}
+
+#nav a span {
+	background: url(/templates/gigatuxsix/images-website/nav-center.gif) repeat-x center top;
+	display: block;
+	padding:8px 25px 10px 25px; 
+
+}
+
+
+#nav{margin:0px; padding:0px; list-style-type:none;  float:left;  z-index:15; position:relative;}
+#nav ul{margin:0px; padding:0px; list-style-type:none; z-index:16; position:relative;}
+#nav li{ position:relative; }
+#nav li a:hover{color:#85AC3F; text-decoration:none}
+#nav li a.active{color:#85AC3F;}
+#nav li li{
+margin-top:0;
+background-image:none;
+position:relative;
+z-index:10;
+border-bottom:solid 1px #292929;
+padding:0px 0px;
+display:block;
+}
+#nav ul {
+display:none;
+left:0px;
+position:absolute;
+top:36px;
+width:120px;
+z-index:10;
+border:solid 1px #0c0c0c;
+background-color:#363636;
+border-width:0px 1px 1px 1px;
+padding:0px 10px;
+
+}
+#nav li ul a{
+width:120px;
+height:auto;
+float:left;
+text-align:left;
+padding:0px 0px 0px 0px;
+font-size:14px;
+font-weight:normal;
+line-height:30px;
+z-index:10;
+color:#fff;
+
+}
+#nav ul ul{top:auto;border-top:none; border:solid 1px #e6e7df; border-width:1px 1px 1px 1px;}	
+#nav li ul ul {left:123px; top:0px;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul{display:none;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{display:block;}
+#nav li ul a{border-top:none;}
+
+/*** END TOP ***/
+
+
+
+/*** HEADER ***/
+#header{width:975px; height:324px;}
+#header_inner{width:975px; background-image:url(/templates/gigatuxsix/images-website/bg_header_inner.jpg); background-repeat:no-repeat; height:150px;}
+/*** END HEADER ***/
+
+/*** SIDEBAR ***/
+#box-sidebar{ width:291px; float:left;}
+
+/* GigaTux - replaced dashes with underscores */
+.box_white_r{ width:291px; background-image:url(/templates/gigatuxsix/images-website/box_white_r.gif); background-repeat:repeat-y; margin-bottom:20px}
+.box_white_t{ width:291px; background-image:url(/templates/gigatuxsix/images-website/box_white_t.gif); background-repeat:no-repeat; background-position:top;}
+.box_white_b{ width:291px; background-image:url(/templates/gigatuxsix/images-website/box_white_b.gif); background-repeat:no-repeat; background-position:bottom;}
+
+
+.sidebox{ padding:10px 20px; font-family: 'MyriadProRegular'; }
+.sidebox ul{ margin:0px; padding:0px; list-style-type:none; }
+.sidebox ul li { border-bottom:1px solid #ebeaea; padding:16px 0px 16px 60px; font-size:20px; }
+.sidebox ul li.one{ background-image:url(/templates/gigatuxsix/images-website/icon-1.png); background-repeat:no-repeat; background-position:9px 17px;  color:#6C2E92;}
+.sidebox ul li.two{ background-image:url(/templates/gigatuxsix/images-website/icon-2.png); background-repeat:no-repeat; background-position:9px 8px; color:#333333 !important;}
+.sidebox ul li.three{ background-image:url(/templates/gigatuxsix/images-website/icon-3.png); background-repeat:no-repeat; background-position:9px 8px; border:0px;}
+.sidebox ul li a, .sidebox ul li a:visited{ color:#333333;}
+.sidebox ul li a:hover{ color:#636262; text-decoration:none;}
+
+
+
+.sidebar{ padding:20px 20px;}
+.sidebar ul{ margin:0px; padding:0px; list-style-type:none; }
+.sidebar ul li { border-bottom:1px solid #ebeaea; padding:10px 0px 10px 18px; font-size:14px; font-weight:bold; background-image:url(/templates/gigatuxsix/images-website/arrow.png); background-repeat:no-repeat; background-position:7px 14px; }
+.sidebar ul li a, .sidebar ul li a:visited{ color:#434141;}
+.sidebar ul li a:hover{ color:#636262; text-decoration:none;}
+
+.sidebar h2{color:#6C2E92;}
+
+
+
+.sidebar-faq{ font-family: 'MyriadProRegular';color:#FFF !important;/* padding:20px 20px;*/ padding:20px 20px 17px 20px;background-image:url(/templates/gigatuxsix/images-website/faq-bg.png);}
+.sidebar-faq ul{ margin:0px; padding:0px; list-style-type:none; }
+.sidebar-faq ul li { border-bottom:1px solid #fff; padding:10px 0px 10px 18px; font-size:14px; font-weight:bold; background-image:url(/templates/gigatuxsix/images-website/arrow-white.png); background-repeat:no-repeat; background-position:7px 14px; }
+.sidebar-faq ul li a, .sidebar-faq ul li a:visited{color:#FFF !important; }
+.sidebar-faq ul li a:hover{color:#FFF !important; text-decoration:none;}
+
+.sidebar-faq h2{color:#FFF; font-family: 'MyriadProRegular';}
+
+.sidebar-faq p{ color:#FFF; }
+
+
+.sidebar-news{ font-family: 'MyriadProRegular';color:#FFF !important; /* padding:20px 20px;*/ padding:20px 20px 0px 20px;}
+.sidebar-news ul{ margin:0px; padding:0px; list-style-type:none; }
+.sidebar-news ul li { border-bottom:1px solid #fff; padding:0px 0px 3px 1px; font-size:14px; font-weight:bold; background-image:url(/templates/gigatuxsix/images-website/arrow-white.png); background-repeat:no-repeat; background-position:7px 14px; }
+.sidebar-news ul li a, .sidebar-faq ul li a:visited{color:#FFF !important; }
+.sidebar-news ul li a:hover{color:#FFF !important; text-decoration:none;}
+
+.sidebar-news h2{color:#FFF; font-family: 'MyriadProRegular';}
+.sidebar-news h3{color:#86AC3F; font-family:Arial, Helvetica, sans-serif; padding:0; margin:0;}
+.sidebar-news p{color:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:12px;  margin-bottom:0px;}
+
+
+
+.box-grey-t{ width:288px; background-image:url(/templates/gigatuxsix/images-website/box_grey_t.gif); background-repeat:no-repeat; background-position:top;}
+.box-grey-b{ width:288px; background-image:url(/templates/gigatuxsix/images-website/box_grey_b.gif); background-repeat:no-repeat; background-position:bottom;}
+.testibox{ width:288px; background-color:#4a4a4a; margin-top:20px;}
+.pad-testi{ color:#fff; padding:20px 21px;}
+.pad-testi h2{ color:#fff; font-weight:bold;}
+.pad-testi p{ color:#c6c5c5; margin-bottom:0px; font-size:12px;}
+
+
+/*** END SIDEBAR ***/
+
+
+
+/*** CONTENT ***/
+#main-content-full{ width:950px; float:left; margin-left:0px;}
+#main-content{ width:648px; float:left; margin-left:35px;}
+#content{ margin:10px 0px;}
+
+#content h2{ color:#85AC3F; font-family:'BellGothicStdBold'; }
+
+.buttonbg { 
+width:90px;
+height:32px;
+background:url(/templates/gigatuxsix/images-website/button.png) no-repeat;
+margin-top:auto;
+margin-bottom:auto;
+padding-top:8px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#fff;
+text-align:center;
+}
+.buttonbg a:visited { color:#fff; }
+.buttonbg a { color:#fff; }
+
+
+/*** END CONTENT ***/
+
+
+/*** FOOTER ***/
+#footer_container{color:#fff;}
+#foot{/*text-align:center;*/
+padding:30px 0 0 0;
+/*the following make sthe footer to be aligned with the */
+text-align: left;
+/*vertical-align: middle;*/
+margin: 0px auto;
+margin-top:0px;
+
+/*width: 550px;*/width:960px;
+
+/*border: 1px dashed #564b47;*/
+
+font-family:'MyriadProRegular';font-size:14px;
+
+
+}
+#foot a{
+
+color:#78B928;
+
+}
+#foot-left{float:left;}
+#foot-right{/*text-align:center;*/ float:right;}
+#foot-right a{font-family: 'MyriadProRegular'; display:inline ; padding-left:20px; color:#FFF;}
+/*** END OF FOOTER ***/

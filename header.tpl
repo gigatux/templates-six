@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="{$charset}" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
+{$headoutput}{$headeroutput}
+{include file="$template/includes/head.tpl"}
 
-    {include file="$template/includes/head.tpl"}
-
-    {$headoutput}
-
-</head>
-<body>
-
-{$headeroutput}
+<link rel="stylesheet" type="text/css" href="templates/{$template}/style.css" />
 
 <section id="header">
     <div class="container">
 
         <!-- Top Bar -->
-        <div id="top-nav">
+        <div id="top-nav" style="display: none;">
             <!-- Language -->
             {if $languagechangeenabled && count($locales) > 1}
                 <div class="pull-right nav">
@@ -93,14 +81,12 @@
 
         </div>
 
-        <a href="{$WEB_ROOT}/index.php"><img src="{$WEB_ROOT}/templates/{$template}/img/logo.png" alt="{$companyname}" /></a>
-
     </div>
 </section>
 
 <section id="main-menu">
 
-    <nav id="nav" class="navbar navbar-default navbar-main" role="navigation">
+    <nav id="whmcs-nav" class="navbar navbar-default navbar-main" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
